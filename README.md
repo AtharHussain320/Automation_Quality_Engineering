@@ -1,27 +1,43 @@
-
-### `README.md`
-
-```markdown
 # Final Task 2 — Automation & Quality Engineering
 
 ## Automated Daily Sales Report
 
-A lightweight Python data-processing pipeline that converts raw JSON sales data into a clean daily CSV report.
+A lightweight Python automation pipeline that reads raw sales data, validates and cleans the records, calculates summary statistics, and generates a daily CSV report.
 
-The project focuses on automation, validation, quality checks, logging, and reliable output.
+The project demonstrates practical data processing, automation, validation, logging, testing, and operational documentation.
 
-## Features
+---
 
-- Read JSON data
-- Validate records
-- Clean invalid data
-- Calculate summary statistics
-- Generate CSV reports
-- Log processing events
-- Handle common errors
-- Automated unit tests
-- Scheduling support
-- Operational runbook
+## Project Overview
+
+The pipeline performs the following operations:
+
+1. Reads sales data from a JSON file.
+2. Validates each record.
+3. Removes invalid records.
+4. Calculates total sales.
+5. Generates a CSV report.
+6. Records important events in a log file.
+7. Provides automated tests for important functions.
+
+The goal is to create a simple and reliable data-processing workflow without unnecessary complexity.
+
+---
+
+## Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| Python | Data processing and automation |
+| JSON | Input data |
+| CSV | Report generation |
+| unittest | Automated testing |
+| logging | Error and process logging |
+| pathlib | File handling |
+
+No external Python packages are required.
+
+---
 
 ## Project Structure
 
