@@ -1,0 +1,5 @@
+2026-09-18 21:05:32,169 - WARNING - Skipped invalid record: {'customer': '', 'product': 'Keyboard', 'amount': 2000}
+2026-09-18 21:05:32,169 - WARNING - Skipped invalid record: {'customer': 'Sara', 'product': 'Monitor', 'amount': -10}
+2026-09-18 21:05:32,171 - INFO - Daily report created.
+2026-09-18 21:07:22,230 - WARNING - Skipped invalid record: {'customer': 'Invalid Record', 'product': '', 'amount': -50}
+2026-09-18 21:07:22,230 - INFO - Daily report created.
