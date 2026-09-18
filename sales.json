@@ -1,0 +1,22 @@
+[
+    {
+        "customer": "Ali",
+        "product": "Keyboard",
+        "amount": 2500
+    },
+    {
+        "customer": "Sara",
+        "product": "Mouse",
+        "amount": 1500
+    },
+    {
+        "customer": "Hamza",
+        "product": "Monitor",
+        "amount": 18500
+    },
+    {
+        "customer": "Invalid Record",
+        "product": "",
+        "amount": -50
+    }
+]
